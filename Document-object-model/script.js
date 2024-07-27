@@ -1,16 +1,21 @@
-console.log("DOM basis")
+console.log("script.js initialisation");
 
-let a=document.body.children
+let a = document.querySelector(".container").children
 
-b=Math.random()
+console.log(a);
 
-if (b<0.33)
-{
-    a.firstelementchild
-}
-else if (b<0.66)
-{
-    a.firstelementchild
+function colors() {
+  var b = Math.ceil(Math.random() * 255)
+  var c = Math.ceil(Math.random() * 255)
+  var d = Math.ceil(Math.random() * 255)
+  return `rgb(${b}, ${c}, ${d})`
 }
 
+// console.log(b)
+
+console.log(Array.from(a));   
+
+Array.from(a).forEach(e => {
+  e.style.backgroundColor = colors()
+})
 
