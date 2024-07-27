@@ -6,4 +6,4 @@ Faulty-Calculator:- https://kanishkagoud.github.io/JAVA-SCRIPT-BASICS/Faulty-Cal
 
 Factorial:- https://kanishkagoud.github.io/JAVA-SCRIPT-BASICS/Factorial/
 
-Document-Object-Model:- https://kanishkagoud.github.io/JAVA-SCRIPT-BASICS/Document-object-model/
+Random-colour :- https://kanishkagoud.github.io/JAVA-SCRIPT-BASICS/Random-colour/
