@@ -6,8 +6,8 @@ function arrayElement(array){
         for(let i=0; i<array.length; i++){
             let currentElement= arr[i];
 
-            if (currentElement != lastElement){
-                arrDouble.push(currentElement*currentElement)
+            if (currentElement !== lastElement){
+                arrDouble.push(arr[i]*2)
                 lastElement=currentElement;
             }
        }
