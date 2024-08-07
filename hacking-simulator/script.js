@@ -18,15 +18,19 @@ const delay = () =>{
 
 async function main() {
     
-    let dotLoop=() => {
         setInterval(() => {
-            if ()
-            let dots=document.createElement("div")
-            console.log(".")
-            div.append(dots)
+            let dots=document.body.getElementsByTagName("div")
+            dots = dots [dots.length-1]
+            if (dots.innerHTML.endsWith("..."))
+            {
+                dots.innerHTML=dots.innerHTML.slice(0, dots.innerHTML.length-3)
+            }
+            else
+            {
+                dots.innerHTML= dots.innerHTML + ".";
+            }
+            
         }, 700);
-
-    }
     
     
     let arr =[ "Initializing Hacking", 
@@ -36,7 +40,7 @@ async function main() {
         "Cleaning up"]
         
         for (const element of arr) {
-            Hacking(element)
+            await Hacking(element)
         }
     }
 
