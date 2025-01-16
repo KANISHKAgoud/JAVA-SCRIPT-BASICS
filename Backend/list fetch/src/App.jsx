@@ -22,15 +22,13 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* {fetch_data} */}
-      <div className='my-4'>
+      <div className='my-4 flex flex-wrap'>
         {data.map((items) => {
-          return (<div key={items.id}>
-            {items.title}
+          return (<div key={items.id} className=''>
+            <Cards title={items.title} id = {items.id} username = {items.username} />
           </div>)
         }
         )}
-        <Cards />
       </div>
     </>
   )
