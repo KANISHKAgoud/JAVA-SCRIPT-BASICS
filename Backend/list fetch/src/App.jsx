@@ -25,7 +25,7 @@ function App() {
       <div className='my-4 flex flex-wrap'>
         {data.map((items) => {
           return (<div key={items.id} className=''>
-            <Cards title={items.title} id = {items.id} username = {items.username} />
+            <Cards title={items.title} id = {items.id} username = {items.userId} body = {items.body}/>
           </div>)
         }
         )}
